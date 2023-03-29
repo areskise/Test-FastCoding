@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #888;
+    margin-bottom: 36px;
+
+}
+
+header {
+    height: 72px;
+    background-color: #000;
+    box-shadow: 0px 2px 10px -2px rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    z-index: 3;
+}
+
+#logo {
+    display: flex;
+    line-height: 72px;
+    padding: 0 24px;
+    font-size: 40px;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.AX {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+
+.IT {
+    font-weight: 300;
+    color: #fe9a59;
+}
+
+#nav {
+    padding: 0;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    opacity: .8;
+    text-decoration: none;
+    line-height: 72px;
+    padding: 0 24px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+#banner {
+    margin-top: 72px;
+    background-image: url(./img/banner/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+}
+
+#banner .mask {
+    min-height: 550px;
+    background-image: url(./img/banner/mask.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .content-container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-banner {
+    color: #e5e5e5;
+    max-width: 540px;
+    margin: 36px 0;
+}
+
+.text-banner h1 {
+    font-size: 40px; 
+    font-weight: 300;   
+}
+
+.text-banner hr {
+    width: 66px;  
+    border: 1px solid #e5e5e5;
+    opacity: 1;
+    margin: 32px 0;
+}
+
+.text-banner p {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.logo-banner {
+    display: flex;
+    font-size: 100px;
+}
+
+.btn-download {
+    background: none;
+    border: 2px solid #fff;
+    padding: 7px 28px;
+    color: #fff;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.form-signup {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0;
+    margin: 36px 0;
+}
+
+.header-signup {
+    text-align: center;
+    padding: 12px;
+    background-color: #f5f5f5;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-signup span {
+    color: #fe9a59;
+}
+
+
+
+.body-signup .form-control {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin: 24px 0;
+    opacity: 0.6;
+}
+
+.footer-signup .form-control {
+    background-color: #fe9a59;
+    border: 0;
+    border-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 14px 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+#first-content .content-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tabs {
+    padding: 36px 12px;
+    min-width: 140px;
+    text-align: center;
+}
+
+.tabs .btn-tab1 {
+    background-color: #fe9a59;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 44px 38px;
+    font-weight: 500;
+
+}
+
+.tabs .btn-tab2 {
+    background-color: #333;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 44px 37px;
+    font-weight: 500;
+    margin: 1px 0;
+}
+
+.tabs .btn-tab3 {
+    background-color: #333;
+    border: 0;    
+    border-radius: 4px;
+    color: #fff;
+    padding: 44px 37px;
+    font-weight: 500;
+}
+
+.text-content h5 {
+    margin-bottom: 36px;
+    font-weight: 700;
+}
+
+.text-content hr {
+    width: 66px;  
+    border: 1px solid #fe9a59;
+    opacity: 1;
+    margin: 32px 0;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.icon-content-s {
+    color: #fe9a59;
+    border: 2px solid #fe9a59;
+    border-radius: 50%;
+    padding: 6px 8px;
+}
+
+.icon-content-l {
+    color: #fe9a59;
+    border: 2px solid #fe9a59;
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.content-item {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-item p {
+    margin: 0;
+}
+
+.btn-submit {
+    background-color: #fe9a59;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 22px;
+    font-weight: 500;
+}
+
+.text-middle h2 {
+    font-weight: 400;
+}
+
+.text-middle hr {
+    width: 66px;
+    margin: 24px auto;
+    border: 1px solid #fe9a59;
+    opacity: 1;
+}
+
+#second-content .content-container {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 36px 0;
+}
+
+.bg-download {
+    background-image: url(./img/content/download.png);
+}
+
+.text-download h2 {
+    font-weight: 400;
+    color: #e5e5e5;
+}
+
+.text-download hr {
+    width: 66px;
+    margin: 24px auto;
+    border: 1px solid #e5e5e5;
+    opacity: 1;
+}
+
+.text-download p {
+    font-weight: 400;
+    color: #ccc;
+}
+
+.form-contact .form-control {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin: 24px 0;
+    opacity: 0.6;
+}
+
+.form-message {
+    height: 77%;
+}
+
+footer {
+    background-color: #000;
+    padding: 24px 0px 1px;
+    text-align: center;
+}
+
+footer .socials a {
+    font-size: 24px;
+    color: #fff;
+    opacity: .8;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+footer .copyright {
+    color: #fff;
+    opacity: .8;
+    margin: 8px;
+}
+
+footer .copyright a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .8;
+}
+
+.img-content,
+.text-content,
+.body-signup {
+    padding: 36px;
+}
+
+#logo:hover,
+#nav li a:hover,
+footer .socials a:hover,
+footer .copyright a:hover,
+.btn-download:hover,
+.body-signup .form-control:focus,
+.form-contact .form-control:focus,
+footer .socials a:hover {
+    opacity: 1;
+}
